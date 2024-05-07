@@ -23,6 +23,10 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.white),
+          color: kPrimaryColor, //<-- SEE HERE
+        ),
       ),
       home: const HomeScreen(),
     );
