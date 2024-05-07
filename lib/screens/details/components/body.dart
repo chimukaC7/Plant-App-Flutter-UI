@@ -49,7 +49,7 @@ class Body extends StatelessWidget {
                 child: TextButton(
                   style: TextButton.styleFrom(
                     foregroundColor: Colors.black,
-                    backgroundColor: Colors.white,
+                    // backgroundColor: Colors.white,
                   ),
                   onPressed: () {},
                   child: const Text("Description"),
