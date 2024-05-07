@@ -24,12 +24,17 @@ class Body extends StatelessWidget {
                 width: size.width / 2,
                 height: 84,
                 child: ElevatedButton(
-                  // style: RoundedRectangleBorder(
-                  //   borderRadius: BorderRadius.only(
-                  //     topRight: Radius.circular(20),
-                  //   ),
-                  // ),
-                  // color: kPrimaryColor,
+                  style: ElevatedButton.styleFrom(
+                    shape: const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.only(
+                      topRight: Radius.circular(20),
+                    ),
+
+                      // color: kPrimaryColor,
+                  ),
+                    foregroundColor: Colors.black,
+                    backgroundColor: kPrimaryColor,
+                  ),
                   onPressed: () {},
                   child: const Text(
                     "Buy Now",
