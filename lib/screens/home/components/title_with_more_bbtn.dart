@@ -22,11 +22,11 @@ class TitleWithMoreBtn extends StatelessWidget {
           TitleWithCustomUnderline(text: title),
           const Spacer(),
           ElevatedButton(
-            // style:
-            // shape: RoundedRectangleBorder(
-            //   borderRadius: BorderRadius.circular(20),
-            // ),
-            // color kPrimaryColor,
+            style: ElevatedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            backgroundColor:kPrimaryColor,),
             onPressed: press,
             child: const Text(
               "More",
